@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="sea" cx="50%" cy="22%" r="85%">
+      <stop offset="0" stop-color="#5ec8f2"/>
+      <stop offset="0.55" stop-color="#1456a8"/>
+      <stop offset="1" stop-color="#071a45"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" x2="1">
+      <stop offset="0" stop-color="#e3708a"/>
+      <stop offset="0.5" stop-color="#ffc2cf"/>
+      <stop offset="1" stop-color="#e3708a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sea)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="10">
+    <circle cx="232" cy="300" r="26"/>
+    <circle cx="790" cy="230" r="38"/>
+    <circle cx="830" cy="380" r="18"/>
+    <circle cx="190" cy="520" r="16"/>
+  </g>
+  <g transform="translate(512 470)">
+    <!-- 触腕 -->
+    <path d="M-40 150 C-80 260 -150 300 -170 360" stroke="#c04d6a" stroke-width="22" stroke-linecap="round" fill="none"/>
+    <path d="M40 150 C80 260 150 300 170 360" stroke="#c04d6a" stroke-width="22" stroke-linecap="round" fill="none"/>
+    <ellipse cx="-172" cy="372" rx="24" ry="36" fill="#c04d6a"/>
+    <ellipse cx="172" cy="372" rx="24" ry="36" fill="#c04d6a"/>
+    <!-- 腕 -->
+    <g stroke-linecap="round" fill="none">
+      <path d="M-100 140 C-130 210 -150 250 -150 300" stroke="#e3708a" stroke-width="34"/>
+      <path d="M-55 150 C-70 220 -80 270 -78 320" stroke="#f08fa5" stroke-width="34"/>
+      <path d="M-15 155 C-18 230 -22 280 -20 330" stroke="#e3708a" stroke-width="34"/>
+      <path d="M15 155 C18 230 22 280 20 330" stroke="#f08fa5" stroke-width="34"/>
+      <path d="M55 150 C70 220 80 270 78 320" stroke="#e3708a" stroke-width="34"/>
+      <path d="M100 140 C130 210 150 250 150 300" stroke="#f08fa5" stroke-width="34"/>
+    </g>
+    <!-- 頭 -->
+    <ellipse cx="0" cy="120" rx="125" ry="64" fill="#e98aa0"/>
+    <!-- ヒレ -->
+    <path d="M0 -330 L210 -230 L70 -120 L-70 -120 L-210 -230 Z" fill="#d9607d"/>
+    <!-- 胴 -->
+    <path d="M0 -320 C60 -320 130 -200 130 -60 C130 40 115 80 110 95 Q0 125 -110 95 C-115 80 -130 40 -130 -60 C-130 -200 -60 -320 0 -320 Z" fill="url(#body)"/>
+    <g fill="#c04d6a" fill-opacity="0.45">
+      <circle cx="-50" cy="-160" r="10"/><circle cx="40" cy="-200" r="8"/><circle cx="60" cy="-90" r="11"/>
+      <circle cx="-70" cy="-60" r="9"/><circle cx="0" cy="-250" r="7"/><circle cx="-20" cy="-10" r="8"/>
+    </g>
+    <!-- 目 -->
+    <circle cx="-58" cy="120" r="40" fill="#fff"/>
+    <circle cx="58" cy="120" r="40" fill="#fff"/>
+    <circle cx="-58" cy="120" r="34" fill="#1b1424"/>
+    <circle cx="58" cy="120" r="34" fill="#1b1424"/>
+    <circle cx="-70" cy="107" r="13" fill="#fff"/>
+    <circle cx="46" cy="107" r="13" fill="#fff"/>
+    <ellipse cx="-110" cy="160" rx="22" ry="12" fill="#ff7a9a" fill-opacity="0.5"/>
+    <ellipse cx="110" cy="160" rx="22" ry="12" fill="#ff7a9a" fill-opacity="0.5"/>
+  </g>
+</svg>
