@@ -1,8 +1,8 @@
 // 自動生成（scripts/postbuild.mjs）。一度ひらけばオフラインでも遊べるようにする
-const CACHE = 'ika-zukan-2e2c6927218e';
+const CACHE = 'ika-zukan-4cb219cf3d6f';
 const FILES = [
   "./",
-  "./assets/index-1-2M5Iw6.js",
+  "./assets/index-9IE9_dVS.js",
   "./assets/style-DFFxqXDk.css",
   "./icon.svg",
   "./icons/apple-touch-icon.png",
